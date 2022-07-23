@@ -1,0 +1,656 @@
+/**
+ * Table of Contents
+ * 1.0 - Fonts
+ * 2.0 - Reset css
+ * 3.0 - Welcome
+ * 4.0 - About
+ * 5.0 - Mission-Vision
+ * 6.0 - MoodBoard Video
+ * 7.0 - Values-Position
+ * 8.0 - Semiotics
+ * 8.1 - Semiotics Composition
+ * 8.2 - Semiotics Video
+ * 8.3 - Semiotics Variants
+ * 9.0 - Sponsors
+ * 10.0 - Color Ranger
+ * 11.0 - Typography
+ * 12.0 - Graph elements
+ * 12.1 - Merchandising
+ * 12.2 - Stationery
+ * 13.0 - Media Query
+ */
+
+/* ==========================================================================
+   1.0 Fonts
+   ========================================================================== */ 
+
+/*Sofia font*/
+@font-face 
+{
+	font-family: 'sofiaProBlack';
+	src: url('../fonts/Sofia\ Pro\ Black.otf');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face 
+{
+	font-family: 'sofiaProBold';
+	src: url('../fonts/Sofia\ Pro\ Bold.otf');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face 
+{
+	font-family: 'sofiaProSemiBold';
+	src: url('../fonts/Sofia\ Pro\ Semi\ Bold.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'sofiaProSemiBoldItalic';
+	src: url('../fonts/Sofia\ Pro\ Semi\ Bold\ Italic.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'sofiaProRegular';
+	src: url('../fonts/Sofia\ Pro\ Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'sofiaProMedium';
+	src: url('../fonts/Sofia\ Pro\ Medium.otf');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face 
+{
+	font-family: 'sofiaProLight';
+	src: url('../fonts/Sofia\ Pro\ Light.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face 
+{
+	font-family: 'sofiaProMediumItalic';
+	src: url('../fonts/Sofia\ Pro\ Medium\ Italic.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+/*Tahoma font*/
+@font-face 
+{
+	font-family: 'tahoma';
+	src: url('../fonts/tahoma.ttf');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face 
+{
+	font-family: 'tahomaBold';
+	src: url('../fonts/tahomabd.ttf');
+	font-weight: normal;
+    font-style: normal;
+}
+
+/* ==========================================================================
+   2.0 Reset css
+   ========================================================================== */
+html, body 
+{ 
+	overflow-x: hidden;
+	height: 100%;
+	font-family: 'sofiaProRegular';
+	line-height: 20px;
+	background: #ffffff;
+	font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6
+{
+	font-family: 'sofiaProBold';
+	margin: 0px;
+}
+img
+{
+	max-width: 100%;
+	height: auto;
+}
+ul
+{
+	padding: 0px;
+}
+li
+{
+	list-style: none;
+}
+a
+{
+	text-decoration: none;
+	outline: 0;
+}
+/*Style for proyect*/
+.subtitle
+{
+    font-family: 'sofiaProSemiBold';
+    font-size: 2.2em;
+}
+.text-one
+{
+   font-size: 2em;
+   line-height: 1.2em;
+}
+.text-two
+{
+   font-size: 2.1em;
+   line-height: 1.2em;
+}
+.violet-color
+{
+   color: #5e56f6;
+}
+.darkblue-color
+{
+   color: #12093f;
+}
+.yellow-color
+{
+   color: #e7c536;
+}
+.lightblue-color
+{
+   color: #979bb0;
+}
+.white-color
+{
+   color: white;
+}
+.text-bold
+{
+   font-family: 'sofiaProBold';
+}
+.img-select
+{
+   user-select: none;
+}
+.video
+{
+   width: 100%;
+}
+
+/* ==========================================================================
+   3.0 Welcome Styling
+   ========================================================================== */
+.bg-welcome
+{
+   background-image: url(../img/background.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   max-width: 1920px;
+}
+.brand
+{
+   height: 4em;
+}
+.point
+{
+   height: 2em;
+}
+.nav-text
+{
+   color: white;
+   font-family: 'sofiaProRegular';
+   font-size: 1.4em;
+}
+.nav-text:hover
+{
+   color: white;
+}
+.nav-text:focus
+{
+   color: white;
+}
+.nav-text-dropdown
+{
+   color: #12093f;
+   font-family: 'sofiaProRegular';
+   font-size: 1.4em;
+}
+.dropdown-rounded
+{
+   border-radius: 1.5em;
+}
+.dropdwon-item
+{
+   width: 1.1em;
+}
+.welcome-text
+{
+   margin-top: 8em;
+}
+.welcome-to-brand
+{
+   color: #e7c536;
+   font-family: 'sofiaProSemiBoldItalic';
+   font-size: 2em;
+}
+.Welcome-connect
+{
+   color: white;
+   font-family: 'sofiaProBold';
+   font-size: 6em;
+   line-height: 0.95em;
+}
+.welcome-description
+{
+   color: white;
+   font-family: 'sofiaProLight';
+   margin-bottom: 6em;    
+   width: 42%;
+}
+
+/* ==========================================================================
+   4.0 About Styling
+   ========================================================================== */
+.about
+{
+   width: 50%;
+   text-align: justify;
+}
+
+/* ==========================================================================
+   5.0 Mission-Vision Styling
+   ========================================================================== */
+.mission-vision
+{
+   background-color: #eaedf4;
+   max-width: 1920px;
+}
+.mission, .vision
+{
+   width: 45%;
+   text-align: justify;
+}
+
+/* ==========================================================================
+   6.0 MoodBoard Video Styling
+   ========================================================================== */
+.moodboard-video
+{
+   max-width: 1920px;
+   padding: 0px;
+   margin-bottom: -0.5em;
+}
+
+/* ==========================================================================
+   7.0 Values-Position Styling
+   ========================================================================== */
+.values-position
+{
+   background-image: linear-gradient(to right, #e7c536, #f5e872);
+   max-width: 1920px;
+}
+.values, .position
+{
+   width: 45%;
+}
+.img-values
+{
+   height: 2em;
+}
+.img-position
+{
+   height: 1.2em;
+}
+.text-position
+{
+   font-family: 'sofiaProLight';
+}
+.text-position-span
+{
+   font-family: 'sofiaProSemiBold';
+}
+
+/* ==========================================================================
+   8.0 Semiotics Styling
+   ========================================================================== */
+.semiotics
+{
+   height: 36em;
+   background-color: #12093f;
+   background-image: url(../img/SVG/Asset\ 35.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 43%;
+   max-width: 1920px;
+}
+
+/* ==========================================================================
+   8.1 Semiotics Composition Styling
+   ========================================================================== */
+.semiotics-comp
+{
+   max-width: 1920px;
+}
+.comp
+{
+   width: 40%;
+}
+.comp-text
+{
+   width: 55%;
+   text-align: justify;
+}
+.img-comp
+{
+   height: 10em;
+}
+
+/* ==========================================================================
+   8.2 Semiotics Video Styling
+   ========================================================================== */
+.semiotics-video
+{
+   max-width: 1920px;
+   padding: 0px;
+   margin-bottom: -0.5em;
+}
+
+/* ==========================================================================
+   8.3 Semiotics Variants Styling
+   ========================================================================== */
+.semiotics-variants
+{
+   background-image: url(../img/SVG/Asset\ 37.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   max-width: 1920px;
+}
+.tagline, .responsive
+{
+   width: 50%;
+}
+.img-variant
+{
+   width: 70%;
+}
+.img-variant-responsive
+{
+   position: relative;
+   left: 5em;
+}
+
+/* ==========================================================================
+   9.0 Sponsors Styling
+   ========================================================================== */
+.sponsor
+{
+   background-color: #eaedf4;
+   max-width: 1920px;
+}
+.r-left, .r-right
+{
+   height: 3em;
+}
+.img-sponsors
+{
+   width: 20%;
+}
+
+/* ==========================================================================
+   10.0 Color Ranger Styling
+   ========================================================================== */
+.title-color-ranger
+{
+   position: relative;
+}
+.color-ranger
+{   
+   max-width: 1920px;
+   margin-top: -110px;
+   padding: 0px;
+}
+.ranger-color-violet, .ranger-colors
+{
+   width: 50%;
+}
+.ranger-color-violet
+{
+   background-color: #5e56f6;
+   padding: 7em 10em 5em 10em;
+}
+.img-ranger-color
+{
+   margin-top: 1em;
+   margin-bottom: -7em;
+   width: 90%;
+}
+.ranger-color-top
+{
+   background-color: #12093f;
+}
+.ranger-color-top-left, .ranger-color-center-left
+{
+   width: 60%;
+}
+.img-darkviolet
+{
+   width: 12em;
+}
+.ranger-color-center
+{
+   background-color: #e7c536;
+}
+.ranger-color-b1
+{
+   background-image: linear-gradient(0deg, #5e22e4, #5e56f6);
+}
+.ranger-color-b2
+{
+   background-image: linear-gradient(0deg, #5e56f6, #6c94f7);
+}
+.ranger-color-b3
+{
+   background-image: linear-gradient(0deg, #e7c536, #f5e872);
+}
+.ranger-color-b4
+{
+   background-color: #979bb0;
+}
+.ranger-color-b5
+{
+   background-color: #a4a8c2;
+}
+.ranger-color-b6
+{
+   background-color: #eaedf4;
+}
+.ranger-color-b7
+{
+   background-color: #f3f7ff;
+}
+.text-vertical
+{
+   font-size: 2em;
+   overflow: hidden;
+   transform: rotate(180deg);
+   writing-mode: vertical-lr; 
+}
+
+/* ==========================================================================
+   11.0 Typography Styling
+   ========================================================================== */
+.typography
+{
+   background-image: url(../img/SVG/Asset\ 40.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   max-width: 1920px;
+}
+.title-tipography
+{
+   font-family: 'sofiaProRegular';
+   font-size: 3.3em;
+   margin-top: 2em;
+   margin-bottom: 4.3em;
+}
+.title-tipography-bold
+{
+   font-family: 'sofiaProBold';
+}
+.link-web
+{
+   letter-spacing: 1em;
+}
+.title-tip
+{
+   margin-top: 6em;
+}
+.sofia-pro
+{
+   font-family: 'sofiaProBold';
+   font-size: 6.5em;
+}
+.sofia-pro-test
+{
+   font-size: 1.7em;
+   line-height: 1.2em;
+   text-align: justify;
+   width: 60%;
+}
+.tahoma-container
+{
+   background-color: #eff3ff;
+   max-width: 1920px;
+   padding-bottom: 10em;
+}
+.tahoma
+{
+   font-size: 10em;
+   font-family: 'tahomaBold';
+   position: relative;
+   top: -0.7em;
+}
+.tahoma-line
+{
+   font-size: 2em;
+   letter-spacing: 0.4em;
+}
+.tahoma-abc
+{
+   font-size: 1.5em;
+}
+.tahoma-numbers
+{
+   font-size: 1.5em;
+   letter-spacing: 1.1em;
+}
+
+/* ==========================================================================
+   12.0 Graph elements Styling
+   ========================================================================== */
+.slider
+{
+   max-width: 1920px;
+   padding: 0px;
+}
+
+/* ==========================================================================
+   12.1 Merchandising Styling
+   ========================================================================== */
+.merchandising
+{
+   padding: 0px;
+   max-width: 1920px;
+}
+.img-merch
+{
+   width: 100%;
+}
+
+/* ==========================================================================
+   12.2 Stationery Styling
+   ========================================================================== */
+.stationery
+{
+   padding: 0px;
+   max-width: 1920px;
+}
+.img-stationery
+{
+   width: 100%;
+}
+
+/* ==========================================================================
+   13.0 Media query
+   ========================================================================== */
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1360px) 
+{
+   /*Reset*/
+   .text-one
+   {
+      font-size: 1.5em;
+      line-height: 1.2em;
+   }
+   .text-two
+   {
+      font-size: 1.7em;
+      line-height: 1.2em;
+   }
+   /*Welcome*/
+   .welcome-text
+   {
+      margin-top: 3em;
+   }
+   .welcome-to-brand
+   {
+      font-size: 1.5em;
+   }
+   .Welcome-connect
+   {
+      font-size: 4em;
+      line-height: 0.95em;
+   }
+   .welcome-description
+   {
+      margin-bottom: 3em;
+   }
+   /*Semiotics Variants*/
+   .img-variant-responsive
+   {
+      position: relative;
+      left: 0em;
+   }
+   .title-tipography
+   {
+      margin-top: 0em;
+      margin-bottom: 2em;
+   }
+}
+@media only screen and (min-width: 992px) 
+{
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) 
+{ 
+}
+@media only screen and (min-width: 768px) and (max-width : 800px)
+{   
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) 
+{
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) 
+{
+}

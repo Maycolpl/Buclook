@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.82 15.82">
+	<defs>
+		<style>
+			.d{fill:none;stroke:#12093f;stroke-miterlimit:10;}
+		</style>
+	</defs>
+	<g id="a"/>
+	<g id="b">
+		<g id="c">
+			<g>
+				<rect class="d" x="6.06" y=".5" width="3.71" height="14.82"/>
+				<rect class="d" x="6.06" y=".5" width="3.71" height="14.82" transform="translate(0 15.82) rotate(-90)"/>
+			</g>
+		</g>
+	</g>
+</svg>
